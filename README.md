@@ -65,3 +65,30 @@ If you discover a security vulnerability within Laravel, please send an e-mail t
 
 The Laravel framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
 "# lara-medicineqr" 
+
+PROJECT OUTLINE
+---
+1. Help pharmacy worker to find medicine on shelf by QR Code
+2. QR Code labelled on Medicine, Medicine Shelf
+3. frontpage, pharmacy worker can type ID / Name / Scan QR Code to find place of existing same kind of medicine
+4. Scan to add button on frontpage, if ID exist give location, if not exist ask to scan shelf to put medicine
+give recommendation of similar medicine shelf
+5. Scan to use medicine, decrease stock and tell dashboard backend to restock if stock is minimum
+6. Dashboard to tell most used medicine
+7. Print QR Code of not existing medicine shelf
+8. QR Code queueing on A4 paper, and only print if button print pressed
+9. Medicine rack printed once, and print again if asked
+10. QR Size of paper
+
+TODO
+---
+- UI Design with Figma completed
+- Frontpage completed
+- Backend completed
+
+COMPLETED
+
+TARGET
+---
+Fullstack Laravel ( Jan 2022 )
+Laravel + Flutter ( Feb 2022 )
